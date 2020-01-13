@@ -8,7 +8,6 @@ body {
   grid-template-columns: 20% 60% 20%;
   grid-template-rows: 100%;
 }
-
 .master > div {
   text-align: center;
   padding: 20px 0;
@@ -18,42 +17,225 @@ body {
 .video {
   border: solid 5px black;
 }
-
 .video iframe {
   width: auto;
   height: 350px;
 }
 
-.l-controler .um,
-.r-controler .um {
-  background-color: #4F4F4F;
-  margin: 2px;
-}
-.l-controler .um .item1,
-.r-controler .um .item1 {
-  width: auto;
-}
-.l-controler .um .item2,
-.r-controler .um .item2 {
-  width: auto;
-}
-.l-controler .um .item3,
-.r-controler .um .item3 {
-  width: auto;
-  padding-bottom: 10px;
-}
-.l-controler .dois,
-.r-controler .dois {
-  background-color: #A9A9A9;
-  margin: 2px;
-}
-
 .l-controler {
   background-color: #01ffe9;
+}
+.l-controler .l-pad-1 .aUp {
+  width: auto;
+  margin-bottom: 25px;
+}
+.l-controler .l-pad-1 .aUp .arrowUp {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  width: 125px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.l-controler .l-pad-1 .aUp .arrowUp:hover {
+  background-color: black;
+}
+.l-controler .l-pad-1 .aUp .arrowUp:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.l-controler .l-pad-1 .aDown {
+  width: auto;
+  padding-bottom: 10px;
+  margin-top: -6px;
+  margin-bottom: 50px;
+}
+.l-controler .l-pad-1 .aDown .arrowDown {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  width: 125px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.l-controler .l-pad-1 .aDown .arrowDown:hover {
+  background-color: black;
+}
+.l-controler .l-pad-1 .aDown .arrowDown:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.l-controler .l-pad-2 .a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 70%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.l-controler .l-pad-2 .a:hover {
+  background-color: red;
+}
+.l-controler .l-pad-2 .a:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.l-controler .l-pad-2 .b {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 70%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: yellow;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.l-controler .l-pad-2 .b:hover {
+  background-color: yellow;
+}
+.l-controler .l-pad-2 .b:active {
+  background-color: yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .r-controler {
   background-color: #fe0016;
+}
+.r-controler .r-pad-1 .laterais {
+  width: auto;
+  margin-top: 70px;
+}
+.r-controler .r-pad-1 .laterais .arrowLeft {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  height: 100px;
+  width: 70px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.r-controler .r-pad-1 .laterais .arrowLeft:hover {
+  background-color: black;
+}
+.r-controler .r-pad-1 .laterais .arrowLeft:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.r-controler .r-pad-1 .laterais .arrowRight {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  height: 100px;
+  width: 70px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.r-controler .r-pad-1 .laterais .arrowRight:hover {
+  background-color: black;
+}
+.r-controler .r-pad-1 .laterais .arrowRight:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.r-controler .r-pad-2 .c {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 70%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.r-controler .r-pad-2 .c:hover {
+  background-color: blue;
+}
+.r-controler .r-pad-2 .c:active {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.r-controler .r-pad-2 .d {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 70%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: yellow;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.r-controler .r-pad-2 .d:hover {
+  background-color: yellow;
+}
+.r-controler .r-pad-2 .d:active {
+  background-color: yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /*# sourceMappingURL=index.css.map */

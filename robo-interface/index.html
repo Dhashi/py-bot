@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <title>Robo.py</title>
 </head>
 
@@ -12,34 +12,31 @@
 
         <div class="l-controler">
 
-            <div class="um">
+            <div class="l-pad-1">
 
-                <div class="item1">
-                    <button class="arrowUp">
+                <div class="aUp">
+                    <button class="arrowUp" id="bUp" onclick="PressArrowUp()">
                         ^
                     </button>
                 </div>
 
-                <div class="item2">
-                    <button class="arrowLeft">
-                        {
-                    </button>
-
-                    <button class="arrowRight">
-                        }
-                    </button>
-                </div>
-
-                <div class="item3">
-                    <button class="arrowDown">
+                <div class="aDown">
+                    <button class="arrowDown" id="bDown" onclick="PressArrowDown()">
                         -
                     </button>
                 </div>
 
             </div>
 
-            <div class="dois">
-                2
+            <div class="l-pad-2">
+
+                <div>
+                    <button class="a">A</button>
+
+                    <button class="b">B</button>
+
+                </div>
+
             </div>
 
         </div>
@@ -51,31 +48,24 @@
 
         <div class="r-controler">
 
-            <div class="dois">
-                2
-            </div>
+            <div class="r-pad-2">
 
-            <div class="um">
-
-                <div class="item1">
-                    <button class="arrowUp">
-                        ^
-                    </button>
+                <div>
+                    <button class="c">C</button>
+                    <button class="d">D</button>
                 </div>
 
-                <div class="item2">
-                    <button class="arrowLeft">
+            </div>
+
+            <div class="r-pad-1">
+
+                <div class="laterais">
+                    <button class="arrowLeft" id="bLeft" onclick="PressArrowLeft()">
                         {
                     </button>
 
-                    <button class="arrowRight">
+                    <button class="arrowRight" id="bRight" onclick="PressArrowRight()">
                         }
-                    </button>
-                </div>
-
-                <div class="item3">
-                    <button class="arrowDown">
-                        -
                     </button>
                 </div>
 
@@ -85,5 +75,8 @@
 
     </div>
 </body>
+
+<script type="text/javascript" src="js/input.js"></script>
+<script type="text/javascript" src="js/move.js"></script>
 
 </html>

@@ -118,16 +118,16 @@ body {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: yellow;
+  background-color: grey;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
 .l-controler .l-pad-2 .b:hover {
-  background-color: yellow;
+  background-color: grey;
 }
 .l-controler .l-pad-2 .b:active {
-  background-color: yellow;
+  background-color: grey;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -224,16 +224,16 @@ body {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: yellow;
+  background-color: grey;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
 .r-controler .r-pad-2 .d:hover {
-  background-color: yellow;
+  background-color: grey;
 }
 .r-controler .r-pad-2 .d:active {
-  background-color: yellow;
+  background-color: grey;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }

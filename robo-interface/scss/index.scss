@@ -2,6 +2,9 @@ $l-controler-color: #01ffe9;
 $r-controler-color: #fe0016;
 $um-analogico: white;
 $dois-botao: #A9A9A9;
+@import "horizontal-buttom.scss";
+@import "vertical-buttom.scss";
+@import "small-buttom.scss";
 body {
     padding: 0 !important;
     margin: 0 !important;
@@ -33,27 +36,7 @@ body {
             width: auto;
             margin-bottom: 25px;
             .arrowUp {
-                display: inline-block;
-                padding: 15px 25px;
-                font-size: 24px;
-                width: 125px;
-                cursor: pointer;
-                text-align: center;
-                text-decoration: none;
-                outline: none;
-                color: #fff;
-                background-color: black;
-                border: none;
-                border-radius: 15px;
-                box-shadow: 0 9px #999;
-            }
-            .arrowUp:hover {
-                background-color: black
-            }
-            .arrowUp:active {
-                background-color: black;
-                box-shadow: 0 5px #666;
-                transform: translateY(4px);
+                @include horizontal-buttom();
             }
         }
         .aDown {
@@ -62,80 +45,16 @@ body {
             margin-top: -6px;
             margin-bottom: 50px;
             .arrowDown {
-                display: inline-block;
-                padding: 15px 25px;
-                font-size: 24px;
-                width: 125px;
-                cursor: pointer;
-                text-align: center;
-                text-decoration: none;
-                outline: none;
-                color: #fff;
-                background-color: black;
-                border: none;
-                border-radius: 15px;
-                box-shadow: 0 9px #999;
-            }
-            .arrowDown:hover {
-                background-color: black
-            }
-            .arrowDown:active {
-                background-color: black;
-                box-shadow: 0 5px #666;
-                transform: translateY(4px);
+                @include horizontal-buttom();
             }
         }
     }
     .l-pad-2 {
         .a {
-            display: inline-block;
-            height: 50px;
-            width: 50px;
-            border-radius: 70%;
-            padding: 15px 25px;
-            font-size: 24px;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            outline: none;
-            color: #fff;
-            background-color: red;
-            border: none;
-            border-radius: 15px;
-            box-shadow: 0 9px #999;
-        }
-        .a:hover {
-            background-color: red;
-        }
-        .a:active {
-            background-color: red;
-            box-shadow: 0 5px #666;
-            transform: translateY(4px);
+            @include small-buttom(red);
         }
         .b {
-            display: inline-block;
-            height: 50px;
-            width: 50px;
-            border-radius: 70%;
-            padding: 15px 25px;
-            font-size: 24px;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            outline: none;
-            color: #fff;
-            background-color: yellow;
-            border: none;
-            border-radius: 15px;
-            box-shadow: 0 9px #999;
-        }
-        .b:hover {
-            background-color: yellow;
-        }
-        .b:active {
-            background-color: yellow;
-            box-shadow: 0 5px #666;
-            transform: translateY(4px);
+            @include small-buttom(grey);
         }
     }
 }
@@ -147,105 +66,19 @@ body {
             width: auto;
             margin-top: 70px;
             .arrowLeft {
-                display: inline-block;
-                padding: 15px 25px;
-                font-size: 24px;
-                height: 100px;
-                width: 70px;
-                cursor: pointer;
-                text-align: center;
-                text-decoration: none;
-                outline: none;
-                color: #fff;
-                background-color: black;
-                border: none;
-                border-radius: 15px;
-                box-shadow: 0 9px #999;
-            }
-            .arrowLeft:hover {
-                background-color: black
-            }
-            .arrowLeft:active {
-                background-color: black;
-                box-shadow: 0 5px #666;
-                transform: translateY(4px);
+                @include vertical-buttom();
             }
             .arrowRight {
-                display: inline-block;
-                padding: 15px 25px;
-                font-size: 24px;
-                height: 100px;
-                width: 70px;
-                cursor: pointer;
-                text-align: center;
-                text-decoration: none;
-                outline: none;
-                color: #fff;
-                background-color: black;
-                border: none;
-                border-radius: 15px;
-                box-shadow: 0 9px #999;
-            }
-            .arrowRight:hover {
-                background-color: black
-            }
-            .arrowRight:active {
-                background-color: black;
-                box-shadow: 0 5px #666;
-                transform: translateY(4px);
+                @include vertical-buttom();
             }
         }
     }
     .r-pad-2 {
         .c {
-            display: inline-block;
-            height: 50px;
-            width: 50px;
-            border-radius: 70%;
-            padding: 15px 25px;
-            font-size: 24px;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            outline: none;
-            color: #fff;
-            background-color: blue;
-            border: none;
-            border-radius: 15px;
-            box-shadow: 0 9px #999;
-        }
-        .c:hover {
-            background-color: blue;
-        }
-        .c:active {
-            background-color: blue;
-            box-shadow: 0 5px #666;
-            transform: translateY(4px);
+            @include small-buttom(blue);
         }
         .d {
-            display: inline-block;
-            height: 50px;
-            width: 50px;
-            border-radius: 70%;
-            padding: 15px 25px;
-            font-size: 24px;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            outline: none;
-            color: #fff;
-            background-color: yellow;
-            border: none;
-            border-radius: 15px;
-            box-shadow: 0 9px #999;
-        }
-        .d:hover {
-            background-color: yellow;
-        }
-        .d:active {
-            background-color: yellow;
-            box-shadow: 0 5px #666;
-            transform: translateY(4px);
+            @include small-buttom(grey);
         }
     }
 }

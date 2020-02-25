@@ -1,0 +1,37 @@
+* {
+  margin: !important 0;
+  padding: !important 0;
+}
+
+.main {
+  height: 100vh;
+}
+
+.right,
+.left,
+.middle {
+  padding: 0;
+}
+
+.left {
+  background-color: #01ffe9;
+  height: 100vh;
+}
+
+.middle {
+  background-color: lightgray;
+  height: 100vh;
+}
+
+.right {
+  background-color: #fe0016;
+  height: 100vh;
+}
+
+#joyDiv {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=index.css.map */

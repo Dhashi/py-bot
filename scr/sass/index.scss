@@ -4,34 +4,41 @@
 }
 
 .main {
-    height: 100vh;
+    margin-bottom: 0;
 }
 
 .right,
 .left,
 .middle {
-    padding: 0;
+    height: 100vh;
+    .but {
+        margin-top: 10vh;
+        a {
+            margin: 1vh;
+        }
+    }
+    .dial {
+        .joyDiv,
+        .joyDiv2 {
+            width: 44vh;
+            height: 44vh;
+            margin-top: 5vh;
+        }
+    }
 }
 
 .left {
     background-color: #01ffe9;
-    height: 100vh;
 }
 
 .middle {
     background-color: lightgray;
-    height: 100vh;
+    iframe {
+        width: 88.9vh;
+        height: 93vh;
+    }
 }
 
 .right {
     background-color: #fe0016;
-    height: 100vh;
 }
-
-#joyDiv {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
-}
-
-// Nipples

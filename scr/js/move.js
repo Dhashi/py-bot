@@ -17,14 +17,12 @@ function PressArrowDown() {
 
 // Luzes
 function lightOn(params) {
-    do {
-        setTimeout(function() { console.log("Lights ON"); }, 1000);
-    } while (light === true);
+    console.log('Lights ON')
 }
 
 // Velocidade de Cruzeiro
 function cruzeiro(params) {
-    setTimeout(function() { console.log("Moving Foward"); }, 1000);
+    console.log("Moving Foward")
 }
 
 // Camera
@@ -34,5 +32,5 @@ function camera(params) {
 
 // Gravação 
 function recordOn(params) {
-    setTimeout(function() { console.log("Recording..."); }, 1000);
+    console.log("Recording...")
 }

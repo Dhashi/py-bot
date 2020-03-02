@@ -53,7 +53,7 @@ function takePicture(params) {
 
 // Input Botão Gravação
 function recordSwitch(params) {
-    if (light === false) {
+    if (record === false) {
         return record = true, recordOn()
     } else {
         return record = false, console.log('Record OFF')
